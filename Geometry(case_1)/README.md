@@ -82,11 +82,11 @@ $figures = [
 ![N|Solid](https://ege-ok.ru/wp-content/uploads/2012/03/opisanokr1.jpeg)
 Таким методом мы можем получить точки любой равносторонней фигуры, нам потребуется формула изменения координат на окружности:
 
-> x = x0 + R * sin(angel)
+> x = x0 + R * sin(angel);
 > y = y0 + R * sin(angel)
 
 Если нам надо использовать эту формулу для эллипса, то надо дабавить коэффициэнты
 
-> x = x0 + x_coeff * R * sin(angel)
+> x = x0 + x_coeff * R * sin(angel);
 > y = y0 + y_coeff * R * sin(angel)
 
